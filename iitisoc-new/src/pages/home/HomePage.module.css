@@ -1,0 +1,171 @@
+.welcomeToQuizzylicious {
+  position: absolute;
+  top: 52.57px;
+  left: 170px;
+  font-weight: 800;
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+.homePageChild {
+  position: absolute;
+  top: 165px;
+  left: 0;
+  background-color: #141948;
+  width: 1440px;
+  height: 88px;
+}
+.component1,
+.component3,
+.component4 {
+  width: 153px;
+  position: absolute;
+  top: 177px;
+  left: 275px;
+}
+.component3,
+.component4 {
+  top: 175px;
+  left: 999px;
+}
+.component4 {
+  top: 177px;
+  left: 637px;
+}
+.homePageItem {
+  position: absolute;
+  top: 711px;
+  right: 0;
+  background-color: var(--color-midnightblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 315px;
+}
+.trendingTopics {
+  position: absolute;
+  top: 731px;
+  left: 530px;
+  font-size: 36px;
+  display: inline-block;
+  font-weight: 600;
+  color: var(--color-white);
+  width: 380px;
+  height: 74px;
+}
+.homePageInner,
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  border-radius: var(--br-xl);
+  width: 309px;
+  height: 163px;
+}
+.homePageInner {
+  top: calc(50% + 312px);
+  left: calc(50% - 686px);
+  object-fit: cover;
+}
+.rectangleDiv,
+.rectangleIcon {
+  top: 823px;
+}
+.rectangleIcon {
+  left: 396px;
+  object-fit: cover;
+}
+.rectangleDiv {
+  left: 403px;
+}
+.homePageChild1,
+.homePageChild2,
+.homePageChild3 {
+  position: absolute;
+  top: 274px;
+  left: 488px;
+  border-radius: var(--br-3xs);
+  width: 463px;
+  height: 403px;
+  object-fit: cover;
+}
+.homePageChild2,
+.homePageChild3 {
+  top: 273px;
+  left: 976px;
+  width: 464px;
+  height: 404px;
+}
+.homePageChild3 {
+  left: 0;
+  width: 463px;
+  height: 403px;
+}
+.component6Child,
+.component6Item {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component6Child {
+  height: 329.06%;
+  width: 329.06%;
+  top: 67.52%;
+  right: -303.42%;
+  bottom: -296.58%;
+  left: 74.36%;
+  border-radius: 50%;
+  display: none;
+}
+.component6Item {
+  height: 108.55%;
+  width: 108.55%;
+  top: -4.27%;
+  right: -4.27%;
+  bottom: -4.27%;
+  left: -4.27%;
+  border-radius: var(--br-161xl);
+}
+.component6,
+.profile {
+  position: absolute;
+  top: 37.61%;
+  left: 19.66%;
+}
+.component6 {
+  top: 27px;
+  left: 31px;
+  width: 117px;
+  height: 117px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.homePageChild4,
+.homePageChild5 {
+  position: absolute;
+  top: 828px;
+  left: 759px;
+  border-radius: var(--br-xl);
+  width: 317px;
+  height: 158px;
+  object-fit: cover;
+}
+.homePageChild5 {
+  top: 824px;
+  left: 1105px;
+  width: 309px;
+  height: 163px;
+}
+.homePage {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(/public/home-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 64px;
+  color: #130c3a;
+  font-family: var(--font-inter);
+}
