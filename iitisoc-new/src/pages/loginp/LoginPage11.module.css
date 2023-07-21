@@ -15,7 +15,7 @@
   bottom: 0;
   left: 0;
  
- background-image: url( C:\Users\ppate\github\IITISoC-23-Web-23-Quiz_Website\quizz\public\login-page--1@3x.png);
+/* background-image: url( C:\Users\ppate\github\IITISoC-23-Web-23-Quiz_Website\quizz\public\login-page--1@3x.png); */
 }
 
 .component2,
@@ -39,9 +39,9 @@
   left: 1000px;
   background-color:black ;
 }
-.loginPage1{ 
-   background-image: url(C:\Users\ppate\github\IITISoC-23-Web-23-Quiz_Website\quizz\public\login-page--1@3x.png);
-}
+/*  .loginPage1{ 
+   background-image: url(C:\Users\ppate\github\IITISoC-23-Web-23-Quiz_Website\quizz\public\login-page--1@3x.png);  
+}  */
 
 .loginPage1Child {
   position: absolute;
