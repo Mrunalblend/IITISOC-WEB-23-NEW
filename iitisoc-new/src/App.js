@@ -14,7 +14,11 @@ import LoginPage11 from "./pages/loginp/LoginPage11";
 import Homepage from "./pages/home/HomePage";
 
 
-
+import React, {useState} from "react";
+import logo from './logo.svg';
+import './App.css';
+import {Login} from "./Login"
+import {Register} from "./Register"
  
   
     
@@ -24,6 +28,12 @@ function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
+
+  const [currentForm, setCurrentForm] = useState('login')
+  
+  const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  }
 
   useEffect(() => {
     if (action !== "POP") {
@@ -69,6 +79,7 @@ function App() {
   }, [pathname]);
 
   return (
+
     <Routes>
       <Route path="/loginp" element ={<LoginPage11 />} />
        <Route path="/prof" element={<ProfilePage/>}/>
@@ -82,8 +93,17 @@ function App() {
         element={<LISTOFTOPICSPAGEFORMATHS />}
       />
       <Route path="/frame-6" element={<FrameComponent />} />
-    </Routes>
-
-  );
+    </Routes> )
+      (
+      <div className="App">
+        {
+          currentForm === "login" ? <Login onFormSwitch={toggleForm}/> : <Register onFormSwitch={toggleForm}/>
+        }
+        
+      </div>
+    );
+  
+  
+  
 }
 export default App;
