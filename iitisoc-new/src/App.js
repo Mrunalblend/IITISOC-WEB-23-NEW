@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import QuizPage from "./pages/quiz-page";
+
 import LISTOFTOPICSPAGEFORCHEM from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-c-h-e-m";
 import LISTOFTOPICSPAGEFORMATHS from "./pages/l-i-s-t-o-f-t-o-p-i-c-s-p-a-g-e-f-o-r-m-a-t-h-s";
 import FrameComponent from "./pages/frame-component";
@@ -82,12 +82,13 @@ function App() {
 
     <Routes>
       <Route path="/loginp" element ={<LoginPage11 />} />
-       <Route path="/prof" element={<ProfilePage/>}/>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/quiz-page" element={<QuizPage />} />
+       <Route path="/profilep" element={<ProfilePage/>}/>
+      <Route path="/home" element={<Homepage />} />
+    
       <Route path="/list-of-topics-page-for-chem"
         element={<LISTOFTOPICSPAGEFORCHEM />}
       />
+      
       <Route
         path="/list-of-topics-page-for-maths"
         element={<LISTOFTOPICSPAGEFORMATHS />}

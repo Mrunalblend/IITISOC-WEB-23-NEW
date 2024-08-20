@@ -1,4 +1,4 @@
-// Option.js
+
 
 import React, { Component } from 'react';
 
